@@ -1,0 +1,25 @@
+footer{
+	margin-top: 90px;
+	background-color: black;
+	color: white;
+	font-family: 'Nunito', sans-serif;
+	width: 100%;
+    h4{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+    div{
+        display: flex;
+	    justify-content:center;
+	    align-items: center;
+        a{
+            margin: 10px;
+        }
+    }
+    h6{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+}

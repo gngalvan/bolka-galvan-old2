@@ -1,0 +1,21 @@
+header{
+    .navbar{
+        position: fixed;
+        width: 100%;
+        font-family: 'Nunito', sans-serif;
+        z-index: 3;
+        .container-fluid{
+            .navbar-brand{
+                padding: 10px;
+            }
+            .collapse{
+                .d-flex{
+                    .botonBuscar:hover{
+                        color: black;
+                        background-color: azure;
+                    }
+                }
+            }
+        }
+    }
+}

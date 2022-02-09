@@ -1,0 +1,45 @@
+main{
+	padding-top: 100px;
+	font-family: 'Nunito', sans-serif;
+    img{
+        width: 100%;
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+    }
+    h2{
+        display: flex;
+        justify-content: center;
+    }
+    .subtitulo{
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+        .row{
+            gap: 20px;
+            .cardInicio{
+                border: solid 1px black;
+                border-radius: 10px;
+                .efecto:hover{
+                    transform: scale(1.1);
+                }
+            }
+            .col-md-5{
+                span{
+                    font-weight: bold;
+                }                
+            }
+        }
+    }
+}
+
+/* media query */
+@media  (max-width: 576px) {
+	.cardInicio{
+		margin-top: 10px;
+		width: 80%;
+	}
+}
